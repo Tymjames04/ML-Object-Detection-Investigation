@@ -1,0 +1,13 @@
+Required libraries:
+- torch
+- torchvision
+- numpy
+- opencv-python
+- ultralytics
+- rfdetr
+- transformers
+- torchmetrics
+- faster-coco-eval
+- supervision
+
+The exact PyTorch installation required will depend on your system and GPU configuration. For example, this testing was originally performed using PyTorch with ROCm on an AMD GPU.
