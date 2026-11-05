@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Model weights / exports
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+
+# Raw datasets
+accuracy_test/
+datasets/
+data/
+images/
+labels/
+
+# Videos
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated outputs
+runs/
+outputs/
+predictions/
+results/
+*.xlsx
+*.pptx
+
+# Temporary files
+*.tmp
+*.log
